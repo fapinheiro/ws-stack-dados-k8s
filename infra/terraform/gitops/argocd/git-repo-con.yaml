@@ -5,7 +5,8 @@ metadata:
   namespace: gitops
   labels:
     argocd.argoproj.io/secret-type: repository
+type: Opaque
 stringData:
-  url: https://luanmorenomaciel@github.com/owshq-academy/ws-stack-dados-k8s.git
-  password: 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
-  username: not-used
+    url: https://fapinheiro@github.com/fapinheiro/ws-stack-dados-k8s
+    password: #MY_GITHUB_ACCESS_TOKEN#
+    username: #MY_GITHUB_USERNAME#
